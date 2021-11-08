@@ -85,6 +85,10 @@ h3{
     {
         display: none;
     };
+    .joke {
+        font-size: 10px;
+    
+    }
 }
 
 @media (max-width: 800px)
@@ -93,6 +97,10 @@ h3{
     {
         display: none;
     };
+    .joke {
+        font-size: 10px;
+      
+    }
 
 }
 
