@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap');
+/*@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");*/
+:root
+{
+    --left-bg-color:rgba(87,84,236,0.7);
+    --right-bg-color:rgba(43,43,43,0.8);
+    --left-btn-color:rgba(87,83,236,1);
+    --right-btn-color:rgb(239, 243, 8);
+
+    --hover-width:75%;
+    --other-width:25%;
+    --speed: 1000ms;
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+/*alinhar conteudos ao centro*/
+body
+{
+    background-image: linear-gradient(90deg, #073805, #207c03);
+    font-family: 'Poppins',sans-serif;
+    display: flex;          /*coloca tudo em linha*/
+   flex-direction: column; /*coloca tudo em coluna*/
+    align-items: center;    /*alinha horizontalmente*/
+    justify-content: center;/*alinha tudo verticalmente com uso de height:100vh*/
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+
+.main{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+}
+
+h3{
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.joke {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.btn{
+    background-color: #0a775c;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: 0;
+}
+.btn:active{
+    transform: scale(0.9);
+}
+
+
+@media(max-width: 480px)        /*para ecras mais pequenos*/
+{
+
+    footer 
+    {
+        display: none;
+    };
+}
+
+@media (max-width: 800px)
+{
+    footer 
+    {
+        display: none;
+    };
+
+}
+
+
+/*estilos do footer */
+
+footer{
+    font-size: 8pt;
+    color: rgb(255, 196, 0);
+    position: absolute;
+    text-align: center;
+    border-top: 1px dashed;
+    font-family:'Mulish',sans-serif;
+    bottom: 0.5rem; 
+    font-weight: 700;
+}
+
+footer a{
+   color: #edf5e1;  /*cor dos links a preto*/
+   text-decoration: none;     /*retira o sublinhado dos links*/
+  
+}
+
+footer a:hover{
+    color: rgb(255, 196, 0);
+}
+
+
