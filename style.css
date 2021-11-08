@@ -109,14 +109,16 @@ footer{
     font-weight: 700;
 }
 
-footer a{
-   color: #edf5e1;  /*cor dos links a preto*/
+#cabeca a{
+   color: #171a13;  /*cor dos links a preto*/
    text-decoration: none;     /*retira o sublinhado dos links*/
-  
 }
 
-footer a:hover{
+#cabeca a:hover{
     color: rgb(255, 196, 0);
+}
+#cabeca{
+    color:darkgreen;
 }
 
 
