@@ -29,9 +29,10 @@ body
    flex-direction: column; /*coloca tudo em coluna*/
     align-items: center;    /*alinha horizontalmente*/
     justify-content: center;/*alinha tudo verticalmente com uso de height:100vh*/
-    height: 100vh;
-    overflow: hidden;
+   height: 100vh;
+    overflow: hidden; /*BARRA DE SCROLL DOWN, HIDDEN ESCONDIDA*/
     margin: 0;
+    overflow-x: hidden; /*REMOVER BARRA DE SCROLL HORIZONTAL*/
     padding: 20px;
 }
 
@@ -80,6 +81,10 @@ h3{
 
 @media(max-width: 480px)        /*para ecras mais pequenos*/
 {
+    body{
+        height: auto;
+        overflow:visible;
+    }
 
     footer 
     {
@@ -93,6 +98,10 @@ h3{
 
 @media (max-width: 800px)
 {
+    body{
+        height: auto;
+        overflow:visible;
+    }
     footer 
     {
         display: none;
